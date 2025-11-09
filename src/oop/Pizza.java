@@ -3,11 +3,14 @@ package oop;
 
 class main{
     public static void main(String[] args) {
-        Pizza pizza=new Pizza(false);
-        pizza.addExtraCheese();
-        pizza.addExtraToppings();
-        pizza.tackAway();
-        pizza.getBill();
+//        Pizza pizza=new Pizza(false);
+//        pizza.addExtraCheese();
+//        pizza.addExtraToppings();
+//        pizza.tackAway();
+//        pizza.getBill();
+
+        DeluxPizza deluxPizza=new DeluxPizza(true);
+        deluxPizza.getBill();
     }
 }
 
@@ -63,3 +66,11 @@ public class Pizza {
     }
 }
 
+class DeluxPizza extends Pizza{
+
+    DeluxPizza(boolean veg) {
+        super(veg);
+        super.addExtraToppings();
+        super.addExtraCheese();
+    }
+}
