@@ -6,7 +6,7 @@ class main{
 //        Pizza pizza=new Pizza(false);
 //        pizza.addExtraCheese();
 //        pizza.addExtraToppings();
-//        pizza.tackAway();
+//        pizza.takeAway();
 //        pizza.getBill();
 
         DeluxPizza deluxPizza=new DeluxPizza(true);
@@ -41,7 +41,7 @@ public class Pizza {
         this.isExtraCheeseAdded=true;
     }
 
-    void tackAway(){
+    void takeAway(){
         this.price+=backPackPrice;
         this.isTakeAway=true;
     }
