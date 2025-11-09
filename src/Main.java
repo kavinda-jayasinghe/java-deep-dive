@@ -6,7 +6,7 @@ class main{
     }
 }
 
-public class Pizza {
+ class Pizza {
 
     private int price;
     private boolean veg;
