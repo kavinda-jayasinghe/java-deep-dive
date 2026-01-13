@@ -5,7 +5,6 @@ public class MissingNumber {
         int[]  numbers={1, 2, 4, 5};
         missingNumber(numbers);
 
-
     }
     static void missingNumber(int[] numbers){
         int expectedSum=0;
@@ -19,7 +18,6 @@ public class MissingNumber {
             expectedSum+=n;
         }
         System.out.println("expectedSum"+expectedSum);
-
         int missingNum=expectedSum-actualSum;
         System.out.println(missingNum);
 
