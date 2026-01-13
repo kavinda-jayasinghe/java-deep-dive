@@ -21,7 +21,7 @@ mostFrequentElement(numbers);
                 maxCount=n;
             }
         }
-        for (Map.Entry<Integer,Integer> entry : map.entrySet()) {
+        for (Map.Entry<Integer,Integer> entry : map.entrySet()){
            if(entry.getValue().equals(maxCount)){
                System.out.println("most : "+entry.getKey());
            }
