@@ -19,6 +19,5 @@ public class SecondLargest {
         }
         System.out.println("second large : " +second);
 
-
     }
 }
