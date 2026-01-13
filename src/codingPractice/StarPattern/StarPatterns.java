@@ -1,4 +1,4 @@
-package StarPattern;
+package codingPractice.StarPattern;
 
 
 public class StarPatterns {
