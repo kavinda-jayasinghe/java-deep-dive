@@ -13,7 +13,6 @@ class main{
         deluxPizza.getBill();
     }
 }
-
 public class Pizza {
 
     private int price;
