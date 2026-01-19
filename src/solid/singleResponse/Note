@@ -1,0 +1,4 @@
+
+if new payment meth introduce we need to modify the whole code again.so here we use interface.no need to modify code,just only add new class  for new method
+payment is common for all  and also payment amount is also common,,,then use interface for that...
+payment method is change.
