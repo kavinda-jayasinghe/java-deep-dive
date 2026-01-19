@@ -6,11 +6,9 @@ public class CalculateDiscount {
         regularCustomer.calculate(100.00);
     }
 }
-
 interface calculate{
     void calculate(double price);
 }
-
 class RegularCustomer implements calculate {
 
     public void calculate(double price) {
