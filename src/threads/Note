@@ -1,0 +1,16 @@
+thread schedular  decide context switching
+
+in production dont use start
+callable - has return type...runnable and thread class return type is void
+checked(compile time) and unchecked(run time- ecxeption(null,arrayoutofbound,arithmatic)
+
+
+
+start run difference
+start create new thread,run not create new thread the
+can start call twice- NO
+
+
+thread safety - ,multiple thread use correctly
+sleep and wait diff
+
